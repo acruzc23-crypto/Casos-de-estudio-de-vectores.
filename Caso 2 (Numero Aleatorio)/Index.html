@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de turnos y citas</title>
+</head>
+<body>
+    <script src="Num-aleatorio2.js"></script>
+    <table border="2">
+        <thead>
+            <th colspan="2" align="center"">Clinica dental</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Superaron el promedio de citas</td>
+                <td><textarea id="superiorPromedio"></textarea></td>
+            </tr>
+            <tr>
+                <td>Especialidad con demandas críticas</td>
+                <td><textarea id="criticasCitas"></textarea></td>
+            </tr>
+            <tr>
+                <td>Porcentaje de citas</td>
+                <td><textarea id="porcentaje"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button onclick="Cargar()">Cargar citas.</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
