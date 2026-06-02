@@ -1,1 +1,49 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de turnos y citas.</title>
+</head>
+<body>
+    <script src="Turnos.js"></script>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="2" align="center">
+                    Clinica dental
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Superaron el promedio de citas.
+                </td>
+                <td>
+                    <textarea id="superiorPromedio"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Especialidades con demandas críticas.
+                </td>
+                <td>
+                    <textarea id="criticasCitas"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Porcentaje de las citas.
+                </td>
+                <td>
+                    <textarea id="porcentaje"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button onclick="Cargar()">Cargar citas.</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
