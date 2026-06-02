@@ -1,1 +1,35 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de ventas por categoría en tienda de abarrotes.</title>
+</head>
+<body>
+    <script src="Num-aleatorio.js"></script>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="2" align="center">Registro de artículos.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Categoría superior al promedio.</td>
+                <td><textarea id="Promedio-superior"></textarea></td>
+            </tr>
+            <tr>
+                <td>Categoría crítica.</td>
+                <td><textarea id="ventas-criticas"></textarea></td>
+            </tr>
+            <tr>
+                <td>Ventas en porcentajes.</td>
+                <td><textarea id="porcentajes"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button onclick="calcular()">Calcular</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
